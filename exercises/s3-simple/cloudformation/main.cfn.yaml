@@ -1,0 +1,23 @@
+Description: Create s S3 bucket with a public access policy
+
+Resources:
+  PetBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicPolicy: false
+
+  PetBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref PetBucket
+      PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal: "*"
+            Action: "s3:GetObject"
+            Resource: !Sub "arn:aws:s3:::${PetBucket}/*"
+
+Outputs:
+  BucketName:
+    Value: !Ref PetBucket

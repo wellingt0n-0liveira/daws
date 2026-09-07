@@ -1,0 +1,72 @@
+{
+    "StackSummaries": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:256845884169:stack/s3-simple/40d6ed60-aa57-11f1-8f8d-0e2867536a1b",
+            "StackName": "s3-simple",
+            "TemplateDescription": "Create s S3 bucket with a public access policy",
+            "CreationTime": "2026-09-07T00:58:35.257000+00:00",
+            "LastUpdatedTime": "2026-09-07T00:58:40.779000+00:00",
+            "DeletionTime": "2026-09-07T01:07:20.189000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "dfed77a4-095c-4956-b6de-aa94cd1dc43f"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:256845884169:stack/s3-simple/e9e44f10-aa52-11f1-bcca-0afff7023071",
+            "StackName": "s3-simple",
+            "TemplateDescription": "Create s S3 bucket with a public access policy",
+            "CreationTime": "2026-09-07T00:27:31.390000+00:00",
+            "LastUpdatedTime": "2026-09-07T00:27:36.922000+00:00",
+            "DeletionTime": "2026-09-07T00:48:09.178000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "a3afba26-c479-4f54-87df-ccef2c269995"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:256845884169:stack/infra-backend/a0a2b990-a976-11f1-b0d7-0e392e77eda7",
+            "StackName": "infra-backend",
+            "CreationTime": "2026-09-05T22:10:39.182000+00:00",
+            "DeletionTime": "2026-09-05T22:24:57.951000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "e8ea2385-d784-4952-a42b-e2888cce1bff"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:256845884169:stack/infra-backend/4e81b5a0-a974-11f1-847e-0affcb23df19",
+            "StackName": "infra-backend",
+            "CreationTime": "2026-09-05T21:54:02.408000+00:00",
+            "DeletionTime": "2026-09-05T22:05:39.578000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "28823348-cac1-4134-b0fa-0cf5f3fe2563"
+                }
+            ]
+        }
+    ]
+}
